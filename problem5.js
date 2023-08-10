@@ -13,3 +13,4 @@ function canPay(changeArray, totalDue) {
 const taka = [1, 2, 5];
 const chipsPrice = 10;
 const canPayTotalDue = canPay(taka, chipsPrice);
+console.log(canPayTotalDue);

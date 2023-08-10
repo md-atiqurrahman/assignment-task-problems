@@ -1,12 +1,12 @@
 function cubeNumber(number) {
-    if (typeof number !== 'number') {
-      return "Please input a number type data";
-    }
-    
-    const result = number * number * number;
-    
-    return result;
+  if (typeof number !== "number") {
+    return "Please input a number";
   }
 
+  const result = number * number * number;
 
- cubeNumber(4)
+  return result;
+}
+
+const result = cubeNumber(4);
+console.log(result);

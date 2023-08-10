@@ -11,4 +11,5 @@ function matchFinder(string1, string2) {
   }
 }
 
-matchFinder("John Doe", "ohn");
+const output = matchFinder("John Doe", "ohn");
+console.log(output);
